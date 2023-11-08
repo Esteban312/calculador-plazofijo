@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de plazo fijo en Pesos</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de plazo fijo en pesos</h1>
+    </header>
+    <main>
+        <section class="ingresar-datos">
+            <h2>Ingresar los valores:</h2>
+            <div class="dato-ingresado">
+                <label for="importe">Importe</label>
+                <input type="text" name="importe" id="importe">
+            </div>
+            <div class="dato-ingresado">
+                <label for="dias">Dias</label>
+                <input type="text" name="dias" id="dias">
+            </div>
+            <div id="resultado"></div>
+        </section>
+
+        <section class="info-tna-tea">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      ¿Qué es la TNA?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>La TNA (Tasa Nominal Anual) es un término financiero que se utiliza para expresar la tasa de interés anual en un préstamo, inversión o producto financiero. Es una medida estandarizada que permite a las personas comparar las tasas de interés ofrecidas en diferentes productos financieros.</p>
+                        <p>La TNA se refiere a la tasa de interés nominal o declarada, antes de tener en cuenta factores como la frecuencia de capitalización de intereses. Por lo tanto, es importante comprender que la TNA no refleja necesariamente el interés efectivo que ganarás o pagarás en un préstamo o inversión.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      ¿Qué es la TEA?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>La TEA (Tasa Efectiva Anual) es una medida financiera que representa la tasa de interés anual real que se aplica a una inversión o préstamo, teniendo en cuenta todos los factores que afectan el rendimiento o el costo del dinero. La TEA es especialmente importante cuando se trata de comparar diferentes productos financieros, ya que refleja la tasa de interés efectiva, incluyendo los efectos de la capitalización, comisiones u otros cargos.</p>
+                        <p>La TEA se calcula teniendo en cuenta factores como la tasa de interés nominal (TNA), la frecuencia de capitalización de intereses, los plazos, las comisiones, los costos de originación, y cualquier otro componente que afecte el costo total de un préstamo o el rendimiento de una inversión.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </section>
+    </main>
+    <footer>
+        <p>hola</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
